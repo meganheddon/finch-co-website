@@ -820,13 +820,14 @@
     <div style="font-size:2rem; margin-bottom:16px;">🐦</div>
     <p style="font-family:'DM Serif Display',serif; font-size:1.3rem; color:#1B4D35; margin-bottom:12px;">This is not a real company.</p>
     <p style="font-family:'DM Sans',sans-serif; font-size:0.95rem; color:#5C5C56; line-height:1.6;">Visit <strong style="color:#1B4D35;">@enhrgyco</strong> on YouTube to explore organization design with me.</p>
-    <button onclick="document.getElementById('notice-modal').style.display='none'" style="margin-top:24px; background:#1B4D35; color:#fff; border:none; padding:10px 28px; border-radius:8px; font-size:0.9rem; font-weight:600; cursor:pointer; font-family:'DM Sans',sans-serif;">Got it</button>
+    <button id="modal-close-btn" onclick="document.getElementById('notice-modal').style.display='none'" style="margin-top:24px; background:#1B4D35; color:#fff; border:none; padding:10px 28px; border-radius:8px; font-size:0.9rem; font-weight:600; cursor:pointer; font-family:'DM Sans',sans-serif;">Got it</button>
   </div>
 </div>
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('button, a.btn-primary, a[class*="btn"]').forEach(function(el) {
+      if (el.id === 'modal-close-btn') return;
       el.addEventListener('click', function(e) {
         e.preventDefault();
         document.getElementById('notice-modal').style.display = 'flex';
