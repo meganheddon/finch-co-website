@@ -1,0 +1,782 @@
+{
+  "year": 2021,
+  "snapshotLabel": "2021",
+  "narrative": {
+    "headline": "The org grows up: first COO, first People function",
+    "body": "With 28 people and a growing sense that informal coordination is straining, Finch makes two pivotal hires: Jordan Reeve as COO and Adrienne Cole as Head of People. The Growth Engineering team gets its first dedicated manager in Leo Carvalho. Emma Sinclair (People Ops) exits after one year \u2014 an early warning sign about onboarding gaps.",
+    "odHealth": "Healthy",
+    "odNote": "COO hire relieves CEO span. People function established. Growth EM layer reduces CTO direct reports. Some role drift beginning in Product.",
+    "keyEvents": [
+      "Jordan Reeve hired as first COO",
+      "Adrienne Cole joins as Head of People & Culture",
+      "Leo Carvalho appointed Engineering Manager for Growth team",
+      "Emma Sinclair (People Ops Manager) exits after 1 year \u2014 onboarding gap flagged"
+    ]
+  },
+  "openRoles": [
+    {
+      "title": "People Ops Coordinator",
+      "dept": "People & Culture",
+      "level": "IC2"
+    },
+    {
+      "title": "Product Designer",
+      "dept": "Product & Design",
+      "level": "IC2"
+    }
+  ],
+  "employees": [
+    {
+      "id": "EXEC001",
+      "name": "Clara Voss",
+      "dept": "Executive",
+      "squad": "Leadership",
+      "title": "Co-Founder & CEO",
+      "level": "Co-Founder",
+      "managerId": null,
+      "managerName": null,
+      "location": "Atlanta HQ",
+      "flags": [
+        "informal leader"
+      ],
+      "ttType": null,
+      "ttTeam": null,
+      "joinYear": 2015,
+      "tenureAtSnapshot": 6
+    },
+    {
+      "id": "EXEC002",
+      "name": "Jordan Reeve",
+      "dept": "Executive",
+      "squad": "Leadership",
+      "title": "Chief Operating Officer",
+      "level": "C-Suite",
+      "managerId": "EXEC001",
+      "managerName": "Clara Voss",
+      "location": "Atlanta HQ",
+      "flags": [],
+      "ttType": null,
+      "ttTeam": null,
+      "joinYear": 2021,
+      "tenureAtSnapshot": 0
+    },
+    {
+      "id": "ENG001",
+      "name": "Marcus Webb",
+      "dept": "Engineering",
+      "squad": "Platform",
+      "title": "Co-Founder & CTO",
+      "level": "Co-Founder",
+      "managerId": "EXEC001",
+      "managerName": "Clara Voss",
+      "location": "Atlanta HQ",
+      "flags": [
+        "informal leader"
+      ],
+      "ttType": "Platform",
+      "ttTeam": "Engineering Platform",
+      "joinYear": 2015,
+      "tenureAtSnapshot": 6
+    },
+    {
+      "id": "ENG002",
+      "name": "Priya Nair",
+      "dept": "Engineering",
+      "squad": "Platform",
+      "title": "Staff Engineer",
+      "level": "IC4",
+      "managerId": "ENG001",
+      "managerName": "Marcus Webb",
+      "location": "Atlanta HQ",
+      "flags": [
+        "informal leader"
+      ],
+      "ttType": "Platform",
+      "ttTeam": "Engineering Platform",
+      "joinYear": 2017,
+      "tenureAtSnapshot": 4
+    },
+    {
+      "id": "ENG003",
+      "name": "Derek Osei",
+      "dept": "Engineering",
+      "squad": "Platform",
+      "title": "Senior Engineer",
+      "level": "IC3",
+      "managerId": "ENG001",
+      "managerName": "Marcus Webb",
+      "location": "Atlanta HQ",
+      "flags": [
+        "high performer"
+      ],
+      "ttType": "Platform",
+      "ttTeam": "Engineering Platform",
+      "joinYear": 2019,
+      "tenureAtSnapshot": 2
+    },
+    {
+      "id": "ENG004",
+      "name": "Tom\u00e1s Reyes",
+      "dept": "Engineering",
+      "squad": "Platform",
+      "title": "Senior Engineer",
+      "level": "IC3",
+      "managerId": "ENG001",
+      "managerName": "Marcus Webb",
+      "location": "Remote",
+      "flags": [],
+      "ttType": "Platform",
+      "ttTeam": "Engineering Platform",
+      "joinYear": 2020,
+      "tenureAtSnapshot": 1
+    },
+    {
+      "id": "ENG009",
+      "name": "Leo Carvalho",
+      "dept": "Engineering",
+      "squad": "Growth",
+      "title": "Engineering Manager",
+      "level": "Manager",
+      "managerId": "ENG001",
+      "managerName": "Marcus Webb",
+      "location": "Atlanta HQ",
+      "flags": [],
+      "ttType": "Stream-aligned",
+      "ttTeam": "Growth Engineering Stream",
+      "joinYear": 2021,
+      "tenureAtSnapshot": 0
+    },
+    {
+      "id": "ENG016",
+      "name": "Fatima Al-Rashid",
+      "dept": "Engineering",
+      "squad": "Infrastructure",
+      "title": "Engineering Manager",
+      "level": "Manager",
+      "managerId": "ENG001",
+      "managerName": "Marcus Webb",
+      "location": "Atlanta HQ",
+      "flags": [],
+      "ttType": "Platform",
+      "ttTeam": "Infrastructure Platform",
+      "joinYear": 2020,
+      "tenureAtSnapshot": 1
+    },
+    {
+      "id": "ENG017",
+      "name": "Devon Pierce",
+      "dept": "Engineering",
+      "squad": "Infrastructure",
+      "title": "Staff Engineer",
+      "level": "IC4",
+      "managerId": "ENG016",
+      "managerName": "Fatima Al-Rashid",
+      "location": "Atlanta HQ",
+      "flags": [
+        "informal leader"
+      ],
+      "ttType": "Platform",
+      "ttTeam": "Infrastructure Platform",
+      "joinYear": 2018,
+      "tenureAtSnapshot": 3
+    },
+    {
+      "id": "PD001",
+      "name": "Simone Archer",
+      "dept": "Product & Design",
+      "squad": "Product",
+      "title": "Head of Product & Design",
+      "level": "Head",
+      "managerId": "EXEC002",
+      "managerName": "Jordan Reeve",
+      "location": "Atlanta HQ",
+      "flags": [
+        "informal leader"
+      ],
+      "ttType": "Stream-aligned",
+      "ttTeam": "Product & Design Stream",
+      "joinYear": 2018,
+      "tenureAtSnapshot": 3
+    },
+    {
+      "id": "PD002",
+      "name": "Rafael Cruz",
+      "dept": "Product & Design",
+      "squad": "Product",
+      "title": "Senior Product Manager",
+      "level": "IC3",
+      "managerId": "PD001",
+      "managerName": "Simone Archer",
+      "location": "Atlanta HQ",
+      "flags": [
+        "high performer"
+      ],
+      "ttType": "Stream-aligned",
+      "ttTeam": "Product & Design Stream",
+      "joinYear": 2021,
+      "tenureAtSnapshot": 0
+    },
+    {
+      "id": "PD011",
+      "name": "Jasmine Osei",
+      "dept": "Product & Design",
+      "squad": "Design",
+      "title": "Design Lead",
+      "level": "IC4",
+      "managerId": "PD001",
+      "managerName": "Simone Archer",
+      "location": "Atlanta HQ",
+      "flags": [
+        "informal leader"
+      ],
+      "ttType": "Stream-aligned",
+      "ttTeam": "Product & Design Stream",
+      "joinYear": 2020,
+      "tenureAtSnapshot": 1
+    },
+    {
+      "id": "MKT001",
+      "name": "Dominique Frasier",
+      "dept": "Marketing & Brand",
+      "squad": "Brand",
+      "title": "Head of Marketing & Brand",
+      "level": "Head",
+      "managerId": "EXEC001",
+      "managerName": "Clara Voss",
+      "location": "Atlanta HQ",
+      "flags": [
+        "informal leader"
+      ],
+      "ttType": "Stream-aligned",
+      "ttTeam": "Marketing Stream",
+      "joinYear": 2019,
+      "tenureAtSnapshot": 2
+    },
+    {
+      "id": "MKT002",
+      "name": "Stella Park",
+      "dept": "Marketing & Brand",
+      "squad": "Brand",
+      "title": "Senior Brand Strategist",
+      "level": "IC3",
+      "managerId": "MKT001",
+      "managerName": "Dominique Frasier",
+      "location": "Atlanta HQ",
+      "flags": [
+        "high performer"
+      ],
+      "ttType": "Stream-aligned",
+      "ttTeam": "Marketing Stream",
+      "joinYear": 2021,
+      "tenureAtSnapshot": 0
+    },
+    {
+      "id": "CX001",
+      "name": "Pauline Osei",
+      "dept": "Customer Experience",
+      "squad": "CX Leadership",
+      "title": "Head of Customer Experience",
+      "level": "Head",
+      "managerId": "EXEC002",
+      "managerName": "Jordan Reeve",
+      "location": "Atlanta HQ",
+      "flags": [],
+      "ttType": "Stream-aligned",
+      "ttTeam": "Customer Stream",
+      "joinYear": 2020,
+      "tenureAtSnapshot": 1
+    },
+    {
+      "id": "CX002",
+      "name": "Marcus Grant",
+      "dept": "Customer Experience",
+      "squad": "Support",
+      "title": "Support Team Lead",
+      "level": "Manager",
+      "managerId": "CX001",
+      "managerName": "Pauline Osei",
+      "location": "Atlanta HQ",
+      "flags": [
+        "high performer"
+      ],
+      "ttType": "Stream-aligned",
+      "ttTeam": "Customer Stream",
+      "joinYear": 2021,
+      "tenureAtSnapshot": 0
+    },
+    {
+      "id": "FIN001",
+      "name": "Harold Vance",
+      "dept": "Finance & Operations",
+      "squad": "Finance & Ops Leadership",
+      "title": "Head of Finance & Operations",
+      "level": "Head",
+      "managerId": "EXEC002",
+      "managerName": "Jordan Reeve",
+      "location": "Atlanta HQ",
+      "flags": [
+        "informal leader"
+      ],
+      "ttType": "Platform",
+      "ttTeam": "Business Operations Platform",
+      "joinYear": 2017,
+      "tenureAtSnapshot": 4
+    },
+    {
+      "id": "FIN002",
+      "name": "Claire Bouchard",
+      "dept": "Finance & Operations",
+      "squad": "Finance",
+      "title": "Senior Financial Analyst",
+      "level": "IC3",
+      "managerId": "FIN001",
+      "managerName": "Harold Vance",
+      "location": "Atlanta HQ",
+      "flags": [
+        "high performer"
+      ],
+      "ttType": "Platform",
+      "ttTeam": "Business Operations Platform",
+      "joinYear": 2020,
+      "tenureAtSnapshot": 1
+    },
+    {
+      "id": "FIN004",
+      "name": "Gabby Torres",
+      "dept": "Finance & Operations",
+      "squad": "Operations",
+      "title": "Senior Operations Manager",
+      "level": "IC3",
+      "managerId": "FIN001",
+      "managerName": "Harold Vance",
+      "location": "Atlanta HQ",
+      "flags": [
+        "informal leader"
+      ],
+      "ttType": "Platform",
+      "ttTeam": "Business Operations Platform",
+      "joinYear": 2019,
+      "tenureAtSnapshot": 2
+    },
+    {
+      "id": "FIN006",
+      "name": "Rena Kowalski",
+      "dept": "Finance & Operations",
+      "squad": "Operations",
+      "title": "Office & Facilities Manager",
+      "level": "IC2",
+      "managerId": "FIN001",
+      "managerName": "Harold Vance",
+      "location": "Atlanta HQ",
+      "flags": [],
+      "ttType": "Platform",
+      "ttTeam": "Business Operations Platform",
+      "joinYear": 2021,
+      "tenureAtSnapshot": 0
+    },
+    {
+      "id": "PEO001",
+      "name": "Adrienne Cole",
+      "dept": "People & Culture",
+      "squad": "People Leadership",
+      "title": "Head of People & Culture",
+      "level": "Head",
+      "managerId": "EXEC001",
+      "managerName": "Clara Voss",
+      "location": "Atlanta HQ",
+      "flags": [
+        "informal leader"
+      ],
+      "ttType": "Enabling",
+      "ttTeam": "Talent & People Development",
+      "joinYear": 2021,
+      "tenureAtSnapshot": 0
+    },
+    {
+      "id": "DEPT003",
+      "name": "Maya Rodriguez",
+      "dept": "Engineering",
+      "squad": "Growth",
+      "title": "Engineer",
+      "level": "IC2",
+      "managerId": "ENG001",
+      "managerName": "Marcus Webb",
+      "location": "Remote",
+      "flags": [],
+      "ttType": "Stream-aligned",
+      "ttTeam": "Growth Engineering Stream",
+      "joinYear": 2020,
+      "tenureAtSnapshot": 1
+    },
+    {
+      "id": "DEPT005",
+      "name": "Sophie Laurent",
+      "dept": "Product & Design",
+      "squad": "Product",
+      "title": "Senior Product Manager",
+      "level": "IC3",
+      "managerId": "PD001",
+      "managerName": "Simone Archer",
+      "location": "Remote",
+      "flags": [],
+      "ttType": "Stream-aligned",
+      "ttTeam": "Product & Design Stream",
+      "joinYear": 2021,
+      "tenureAtSnapshot": 0
+    },
+    {
+      "id": "DEPT006",
+      "name": "Ben Walsh",
+      "dept": "Marketing & Brand",
+      "squad": "Brand",
+      "title": "Marketing Manager",
+      "level": "Manager",
+      "managerId": "MKT001",
+      "managerName": "Dominique Frasier",
+      "location": "Atlanta HQ",
+      "flags": [],
+      "ttType": "Stream-aligned",
+      "ttTeam": "Marketing Stream",
+      "joinYear": 2019,
+      "tenureAtSnapshot": 2
+    },
+    {
+      "id": "DEPT007",
+      "name": "Nina Patel",
+      "dept": "Marketing & Brand",
+      "squad": "Growth Marketing",
+      "title": "Growth Marketer",
+      "level": "IC2",
+      "managerId": "MKT001",
+      "managerName": "Dominique Frasier",
+      "location": "Remote",
+      "flags": [],
+      "ttType": "Stream-aligned",
+      "ttTeam": "Marketing Stream",
+      "joinYear": 2021,
+      "tenureAtSnapshot": 0
+    },
+    {
+      "id": "DEPT008",
+      "name": "Tyler Moore",
+      "dept": "Customer Experience",
+      "squad": "Support",
+      "title": "Support Specialist",
+      "level": "IC2",
+      "managerId": "CX001",
+      "managerName": "Pauline Osei",
+      "location": "Atlanta HQ",
+      "flags": [],
+      "ttType": "Stream-aligned",
+      "ttTeam": "Customer Stream",
+      "joinYear": 2020,
+      "tenureAtSnapshot": 1
+    },
+    {
+      "id": "DEPT009",
+      "name": "Aisha Johnson",
+      "dept": "Customer Experience",
+      "squad": "Support",
+      "title": "Support Specialist",
+      "level": "IC1",
+      "managerId": "CX002",
+      "managerName": "Marcus Grant",
+      "location": "Remote",
+      "flags": [],
+      "ttType": "Stream-aligned",
+      "ttTeam": "Customer Stream",
+      "joinYear": 2021,
+      "tenureAtSnapshot": 0
+    },
+    {
+      "id": "DEPT013",
+      "name": "Lucas Williams",
+      "dept": "Product & Design",
+      "squad": "Design",
+      "title": "Product Designer",
+      "level": "IC2",
+      "managerId": "PD001",
+      "managerName": "Simone Archer",
+      "location": "Atlanta HQ",
+      "flags": [],
+      "ttType": "Stream-aligned",
+      "ttTeam": "Product & Design Stream",
+      "joinYear": 2019,
+      "tenureAtSnapshot": 2
+    },
+    {
+      "id": "DEPT014",
+      "name": "Rachel Morris",
+      "dept": "Finance & Operations",
+      "squad": "Finance",
+      "title": "Financial Analyst",
+      "level": "IC2",
+      "managerId": "FIN001",
+      "managerName": "Harold Vance",
+      "location": "Atlanta HQ",
+      "flags": [],
+      "ttType": "Platform",
+      "ttTeam": "Business Operations Platform",
+      "joinYear": 2018,
+      "tenureAtSnapshot": 3
+    },
+    {
+      "id": "DEPT015",
+      "name": "Thomas Kirk",
+      "dept": "Marketing & Brand",
+      "squad": "Brand",
+      "title": "Content Manager",
+      "level": "IC2",
+      "managerId": "MKT001",
+      "managerName": "Dominique Frasier",
+      "location": "Atlanta HQ",
+      "flags": [],
+      "ttType": "Stream-aligned",
+      "ttTeam": "Marketing Stream",
+      "joinYear": 2020,
+      "tenureAtSnapshot": 1
+    },
+    {
+      "id": "DEPT016",
+      "name": "Zara Ahmed",
+      "dept": "Product & Design",
+      "squad": "Design",
+      "title": "Product Designer",
+      "level": "IC2",
+      "managerId": "PD011",
+      "managerName": "Jasmine Osei",
+      "location": "Remote",
+      "flags": [],
+      "ttType": "Stream-aligned",
+      "ttTeam": "Product & Design Stream",
+      "joinYear": 2021,
+      "tenureAtSnapshot": 0
+    },
+    {
+      "id": "DEPT017",
+      "name": "Marcus Thompson",
+      "dept": "Engineering",
+      "squad": "Infrastructure",
+      "title": "Senior Engineer",
+      "level": "IC3",
+      "managerId": "ENG001",
+      "managerName": "Marcus Webb",
+      "location": "Atlanta HQ",
+      "flags": [],
+      "ttType": "Platform",
+      "ttTeam": "Infrastructure Platform",
+      "joinYear": 2019,
+      "tenureAtSnapshot": 2
+    }
+  ],
+  "metrics": {
+    "headcount": 32,
+    "remote": 6,
+    "hq": 26,
+    "pctRemote": 19,
+    "flightRisks": 0,
+    "informalLeaders": 10,
+    "highPerformers": 5,
+    "avgSpan": 3.1,
+    "maxSpan": 7,
+    "overThreshold": 0,
+    "approaching": 1,
+    "totalManagers": 10,
+    "icToManagerRatio": "1:2.0",
+    "layers": 5,
+    "gradeMix": {
+      "Co-Founder": 2,
+      "C-Suite": 1,
+      "IC4": 3,
+      "IC3": 8,
+      "Manager": 4,
+      "Head": 5,
+      "IC2": 8,
+      "IC1": 1
+    },
+    "juniorPct": 28,
+    "seniorICPct": 34,
+    "leadershipPct": 38,
+    "orgShape": "Inverted (senior-heavy)",
+    "deptHeadcount": {
+      "Executive": 2,
+      "Engineering": 9,
+      "Product & Design": 6,
+      "Marketing & Brand": 5,
+      "Customer Experience": 4,
+      "Finance & Operations": 5,
+      "People & Culture": 1
+    },
+    "spanDetail": [
+      {
+        "id": "ENG001",
+        "name": "Marcus Webb",
+        "title": "Co-Founder & CTO",
+        "dept": "Engineering",
+        "span": 7,
+        "status": "APPROACHING"
+      },
+      {
+        "id": "EXEC001",
+        "name": "Clara Voss",
+        "title": "Co-Founder & CEO",
+        "dept": "Executive",
+        "span": 4,
+        "status": "OK"
+      },
+      {
+        "id": "PD001",
+        "name": "Simone Archer",
+        "title": "Head of Product & Design",
+        "dept": "Product & Design",
+        "span": 4,
+        "status": "OK"
+      },
+      {
+        "id": "MKT001",
+        "name": "Dominique Frasier",
+        "title": "Head of Marketing & Brand",
+        "dept": "Marketing & Brand",
+        "span": 4,
+        "status": "OK"
+      },
+      {
+        "id": "FIN001",
+        "name": "Harold Vance",
+        "title": "Head of Finance & Operations",
+        "dept": "Finance & Operations",
+        "span": 4,
+        "status": "OK"
+      },
+      {
+        "id": "EXEC002",
+        "name": "Jordan Reeve",
+        "title": "Chief Operating Officer",
+        "dept": "Executive",
+        "span": 3,
+        "status": "OK"
+      },
+      {
+        "id": "CX001",
+        "name": "Pauline Osei",
+        "title": "Head of Customer Experience",
+        "dept": "Customer Experience",
+        "span": 2,
+        "status": "OK"
+      },
+      {
+        "id": "ENG016",
+        "name": "Fatima Al-Rashid",
+        "title": "Engineering Manager",
+        "dept": "Engineering",
+        "span": 1,
+        "status": "OK"
+      },
+      {
+        "id": "CX002",
+        "name": "Marcus Grant",
+        "title": "Support Team Lead",
+        "dept": "Customer Experience",
+        "span": 1,
+        "status": "OK"
+      },
+      {
+        "id": "PD011",
+        "name": "Jasmine Osei",
+        "title": "Design Lead",
+        "dept": "Product & Design",
+        "span": 1,
+        "status": "OK"
+      }
+    ],
+    "ttTeams": [
+      {
+        "name": "Engineering Platform",
+        "type": "Platform",
+        "headcount": 4,
+        "members": [
+          "Marcus Webb",
+          "Priya Nair",
+          "Derek Osei",
+          "Tom\u00e1s Reyes"
+        ]
+      },
+      {
+        "name": "Growth Engineering Stream",
+        "type": "Stream-aligned",
+        "headcount": 2,
+        "members": [
+          "Leo Carvalho",
+          "Maya Rodriguez"
+        ]
+      },
+      {
+        "name": "Infrastructure Platform",
+        "type": "Platform",
+        "headcount": 3,
+        "members": [
+          "Fatima Al-Rashid",
+          "Devon Pierce",
+          "Marcus Thompson"
+        ]
+      },
+      {
+        "name": "Product & Design Stream",
+        "type": "Stream-aligned",
+        "headcount": 6,
+        "members": [
+          "Simone Archer",
+          "Rafael Cruz",
+          "Jasmine Osei",
+          "Sophie Laurent",
+          "Lucas Williams",
+          "Zara Ahmed"
+        ]
+      },
+      {
+        "name": "Marketing Stream",
+        "type": "Stream-aligned",
+        "headcount": 5,
+        "members": [
+          "Dominique Frasier",
+          "Stella Park",
+          "Ben Walsh",
+          "Nina Patel",
+          "Thomas Kirk"
+        ]
+      },
+      {
+        "name": "Customer Stream",
+        "type": "Stream-aligned",
+        "headcount": 4,
+        "members": [
+          "Pauline Osei",
+          "Marcus Grant",
+          "Tyler Moore",
+          "Aisha Johnson"
+        ]
+      },
+      {
+        "name": "Business Operations Platform",
+        "type": "Platform",
+        "headcount": 5,
+        "members": [
+          "Harold Vance",
+          "Claire Bouchard",
+          "Gabby Torres",
+          "Rena Kowalski",
+          "Rachel Morris"
+        ]
+      },
+      {
+        "name": "Talent & People Development",
+        "type": "Enabling",
+        "headcount": 1,
+        "members": [
+          "Adrienne Cole"
+        ]
+      }
+    ]
+  },
+  "interactionGaps": []
+}
